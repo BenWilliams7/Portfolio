@@ -1,0 +1,124 @@
+h1{
+  text-align: center;
+  /*font-family: "Times New Roman", Times, serif;*/
+  font-family: 'Helvetica Neue', sans-serif;
+
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 125px;
+  z-index: 1;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 65px;
+
+}
+
+a:link {
+color: black;
+text-decoration: none;
+  }      /* unvisited link */
+
+a:visited {
+color: black;
+text-decoration: none;}   /* visited link */
+
+a:hover {
+color: black;
+text-decoration: none;}     /* mouse over link */
+
+a:active {
+color: black;
+text-decoration: none;}    /* selected link */
+
+
+strong {
+  font-size: 200px;
+}
+
+#lpage {
+  text-align: center;
+
+  font-size: 90px;
+}
+
+#door {
+  margin: auto;
+  display: block;
+  padding: none;
+  width: 29%;
+
+}
+
+#door:hover {
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: gold;
+  border-style: solid;
+}
+
+p {
+  z-index: 1;
+}
+
+body {
+  background-color: #ccccff;
+}
+/*
+body {
+  background: url(img/launch.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #d9d9d9
+;
+}*/
+
+img.photo1 {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border-width: 5px;
+  border-color: gold;
+  border-style: solid;
+  padding: none;
+  width: 89%;
+  /*width: 360px;
+  height: 240px;*/
+  border-radius: 50%
+}
+
+h3{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 42px;
+  text-align: center;
+
+}
+
+
+img.launch {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.launch {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
