@@ -18,6 +18,29 @@ h2{
 
 }
 
+h3{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 54px;
+  text-align: center;
+
+}
+
+h3:hover {
+  img: url("img/selfy2.jpg");
+  color: white;
+}
+
+.panel {
+  background-color: #d6d6ff;
+
+}
+.panel-title {
+  color: black;
+  font-size: 40px;
+}
+
 a:link {
 color: black;
 text-decoration: none;
@@ -60,6 +83,10 @@ strong {
 li {
   font-size: 20px;
   font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 p {
@@ -91,21 +118,53 @@ img.photo1 {
   border-color: gold;
   border-style: solid;
   padding: none;
-  width: 89%;
+  width: 69%;
   /*width: 360px;
   height: 240px;*/
   border-radius: 50%
 }
 
-h3{
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  letter-spacing: -1px;
-  font-size: 42px;
-  text-align: center;
-
+img.photo2 {
+  display: none;
+  margin: auto;
+  margin-top: 20px;
+  border-width: 5px;
+  border-color: gold;
+  border-style: solid;
+  padding: none;
+  width: 69%;
+  /*width: 360px;
+  height: 240px;*/
+  border-radius: 50%
 }
 
+img.photo3 {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-width: 5px;
+  border-color: gold;
+  border-style: solid;
+  padding: none;
+  width: 69%;
+  /*width: 360px;
+  height: 240px;*/
+  border-radius: 50%
+}
+
+img.photo4 {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-width: 5px;
+  border-color: gold;
+  border-style: solid;
+  padding: none;
+  width: 69%;
+  /*width: 360px;
+  height: 240px;*/
+  border-radius: 50%
+}
 
 img.launch {
   /* Set rules to fill background */
