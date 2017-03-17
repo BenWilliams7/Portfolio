@@ -40,6 +40,18 @@ text-decoration: underline;
   font-size: 40px;
 }
 
+.ghrepos{
+  padding-right: -20%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+
+.ghrepos:hover {
+  text-decoration: underline;
+}
+
 a:link {
 color: black;
 text-decoration: none;}      /* unvisited link */
@@ -91,6 +103,11 @@ p {
 .back {
   margin-bottom: 20px;
   margin-left: 20px;
+  text-decoration: underline;
+}
+
+#author {
+  text-align: center;
   text-decoration: underline;
 }
 
