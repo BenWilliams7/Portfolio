@@ -1,8 +1,6 @@
 h1{
   text-align: center;
-  /*font-family: "Times New Roman", Times, serif;*/
   font-family: 'Helvetica Neue', sans-serif;
-
   font-weight: bold;
   letter-spacing: -1px;
   font-size: 125px;
@@ -15,7 +13,6 @@ h2{
   font-weight: bold;
   letter-spacing: -1px;
   font-size: 65px;
-
 }
 
 h3{
@@ -24,18 +21,20 @@ h3{
   letter-spacing: -1px;
   font-size: 54px;
   text-align: center;
+}
 
+h4{
+  text-align: center;
 }
 
 h3:hover {
-  img: url("img/selfy2.jpg");
-  color: white;
+text-decoration: underline;
 }
 
 .panel {
   background-color: #d6d6ff;
-
 }
+
 .panel-title {
   color: black;
   font-size: 40px;
@@ -67,7 +66,6 @@ strong {
   display: block;
   padding: none;
   width: 20%;
-
 }
 
 #door:hover {
@@ -90,7 +88,7 @@ p {
   margin-left: 10%;
 }
 
-#back {
+.back {
   margin-bottom: 20px;
   margin-left: 20px;
   text-decoration: underline;
@@ -110,67 +108,18 @@ img.photo1 {
   border-style: solid;
   padding: none;
   width: 69%;
-  /*width: 360px;
-  height: 240px;*/
-  border-radius: 50%
-}
-
-img.photo2 {
-  display: none;
-  margin: auto;
-  margin-top: 20px;
-  border-width: 5px;
-  border-color: gold;
-  border-style: solid;
-  padding: none;
-  width: 69%;
-  /*width: 360px;
-  height: 240px;*/
-  border-radius: 50%
-}
-
-img.photo3 {
-  display: block;
-  margin: auto;
-  margin-top: 20px;
-  border-width: 5px;
-  border-color: gold;
-  border-style: solid;
-  padding: none;
-  width: 69%;
-  /*width: 360px;
-  height: 240px;*/
-  border-radius: 50%
-}
-
-img.photo4 {
-  display: block;
-  margin: auto;
-  margin-top: 20px;
-  border-width: 5px;
-  border-color: gold;
-  border-style: solid;
-  padding: none;
-  width: 69%;
-  /*width: 360px;
-  height: 240px;*/
   border-radius: 50%
 }
 
 img.launch {
-  /* Set rules to fill background */
   min-height: 100%;
-  min-width: 1024px;
-
-  /* Set up proportionate scaling */
+  min-width: 1024px;  /* Set rules to fill background */
   width: 100%;
-  height: auto;
-
-  /* Set up positioning */
+  height: auto;  /* Set up proportionate scaling */
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -1;  /* Set up positioning */
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
