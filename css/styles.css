@@ -40,17 +40,13 @@ strong {
   font-size: 200px;
 }
 
-#lpage {
-  text-align: center;
-
-  font-size: 90px;
-}
 
 #door {
   margin: auto;
+  margin-top: 8%;
   display: block;
   padding: none;
-  width: 29%;
+  width: 20%;
 
 }
 
@@ -61,8 +57,19 @@ strong {
   border-style: solid;
 }
 
+li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 p {
-  z-index: 1;
+  margin-left: 10%;
+}
+
+#back {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-decoration: underline;
 }
 
 body {
@@ -79,7 +86,7 @@ body {
 img.photo1 {
   display: block;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
   border-width: 5px;
   border-color: gold;
   border-style: solid;
